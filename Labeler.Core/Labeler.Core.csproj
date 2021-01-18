@@ -2,6 +2,25 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>KonKri, dimgrev</Authors>
+    <Company>KonKri, dimgrev</Company>
+    <Description>Labeler allows for adding Labels easily onto Enum fields to use when there is a need to present information quickly to a view in an elegant way.</Description>
+    <PackageIcon>nuget_icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/KonKri/Labeler</RepositoryUrl>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageTags>enum, attribute, string, label</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Copyright />
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/KonKri/Labeler</PackageProjectUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\nuget_icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

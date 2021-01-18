@@ -15,7 +15,7 @@ namespace Labeler.UseCaseExample
         
         Medium,
         
-        [Label("Medium Rare")]
+        [Label("Medium Well")]
         MediumWell,
 
         [Label("Well Done")]
