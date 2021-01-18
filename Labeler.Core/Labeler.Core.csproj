@@ -18,7 +18,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\Desktop\nuget_icon.png">
+    <None Include="nuget_icon.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
