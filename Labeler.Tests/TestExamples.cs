@@ -12,7 +12,7 @@ namespace Labeler.Tests
 
         public TestExamples()
         {
-            SentViaOsLabels = new string[] { "Sent via IPhone 12", "Sent via iOS 13", "Sent via iOS 14" };
+            SentViaOsLabels = new string[] { "Sent via iOS 12", "Sent via iOS 13", "Sent via iOS 14" };
         }
 
         [TestMethod]

@@ -58,7 +58,6 @@ enum SteakDoneness
     
     [Label("Well Done")]
     [Label("Well")] // "Well Done" level can be descrbed just as "Well" as well...
-    
     WellDone,
 }
 ```
