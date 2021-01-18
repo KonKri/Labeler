@@ -1,5 +1,5 @@
 # Labeler
-![CI](https://github.com/KonKri/Labeler/workflows/CI/badge.svg)
+![CI](https://github.com/KonKri/Labeler/workflows/CI/badge.svg) ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Labeler.Core)
 
 Labeler is a NuGet package that allows for adding Labels easily onto Enum fields to 
 use when there is a need to present information quickly to a view in an elegant way.
@@ -36,7 +36,9 @@ I ordered a MediumWell steak.
 ```
 
 ## Installation
-nuget..
+You can install the library by searching into the NuGet library or by running the following command:
+
+```PM> Install-Package Labeler.Core -Version 0.1.0-alpha```
 
 ## How to Use
 ### Add the label attributes onto enum fields
