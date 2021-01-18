@@ -5,8 +5,8 @@ namespace Labeler.Tests
     enum SentViaOS
     {
         [Label("Sent via iOS 12")]
-        [Label("Sent via iPhone 13")]
-        [Label("Sent via iPhone 14")]
+        [Label("Sent via iOS 13")]
+        [Label("Sent via iOS 14")]
         SentViaIOS,
 
         [Label("Sent via Android 9")]
