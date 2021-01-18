@@ -11,14 +11,13 @@ namespace Labeler.Tests
 
         public TestExamples()
         {
-            SentViaOsLabels = new string[] { "Sent via iOS 12", "Sent via iPhone 13", "Sent via iPhone 14" };
+            SentViaOsLabels = new string[] { "Sent via iOS 12", "Sent via iOS 13", "Sent via iOS 14" };
         }
 
         [TestMethod]
         public void TryGetMultipleLabels_MultipleLabelsExist_ReturnLabelsAsEnumerable()
         {
             var labels = SentViaOS.SentViaIOS.GetLabels();
-
             Assert.IsTrue(labels.Intersect(SentViaOsLabels).Count() == 3);
         }
 
