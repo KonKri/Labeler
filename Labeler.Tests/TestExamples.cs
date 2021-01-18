@@ -19,6 +19,7 @@ namespace Labeler.Tests
         public void TryGetMultipleLabels_MultipleLabelsExist_ReturnLabelsAsEnumerable()
         {
             var labels = SentViaOS.SentViaIOS.GetLabels();
+          
             Assert.IsTrue(labels.Intersect(SentViaOsLabels).Count() == 3, $"TestMethod: {MethodBase.GetCurrentMethod().Name} Failed.");
         }
 
