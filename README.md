@@ -31,6 +31,7 @@ In case we want to print an enum value we will have the following result which i
 ```C#
 Console.WriteLine($"I ordered a {SteakDoneness.MediumWell} steak.");
 ```
+
 ```
 I ordered a MediumWell steak.
 ```
