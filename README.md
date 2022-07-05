@@ -88,6 +88,7 @@ Example:
 ```C#
 Console.WriteLine($"I ordered a {SteakDoneness.WellDone.GetLabels().First().ToLower()} steak.");
 ```
+
 ```
 I ordered a well done steak.
 ```
